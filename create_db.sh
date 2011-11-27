@@ -14,3 +14,11 @@ sqlite3 $1 < load_food_group.sql
 
 echo "Loading food..."
 sqlite3 $1 < load_food.sql
+
+echo "Loading nutrient..."
+sqlite3 $1 < load_nutrient.sql
+
+echo "Loading nutrition..."
+sqlite3 $1 < load_nutrition.sql
+
+echo "Done."
