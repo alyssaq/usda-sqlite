@@ -1,0 +1,13 @@
+The USDA has a database of nutritional information for many foods available at:
+
+  http://www.ars.usda.gov/Services/docs.htm?docid=8964
+
+By default it's contained in flat files. This project includes scripts to generate appropriate schema and import them into a SQL database. It's been tested with SQLite but it will probably work with other systems with minimal modification.
+
+You will need to first download the files and unzip them into the data directory, e.g. for release SR24
+
+  cd data
+  wget http://www.ars.usda.gov/SP2UserFiles/Place/12354500/Data/SR24/dnload/sr24.zip
+  unzip sr24.zip
+
+For convenience I've included the data files for SR24 in the data directory.
