@@ -15,3 +15,5 @@ Then just run create_db.sh with the name of the file you want to make:
   ./create_db.sh usda.sql3
 
 For convenience I've included the data files for SR24 in the data directory. I've also included the resulting db for convenience if you just want to use it directly. On my system it takes about 10 seconds to populate the db.
+
+I've included two simple python scripts that let you search for food items and print out nutritional facts in json.

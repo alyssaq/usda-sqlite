@@ -8,6 +8,7 @@ fi
 
 echo "Normalizing data..."
 sed -i s/~//g data/*.txt
+sed -i s/\\o265/u/ data/NUTR_DEF.txt
 
 echo "Loading food group..."
 sqlite3 $1 < load_food_group.sql
