@@ -16,8 +16,10 @@ c.execute("""
     amount
   FROM nutrition
   JOIN nutrient
+  JOIN common_nutrient
   ON nutrition.food_id = ?
   AND nutrition.nutrient_id = nutrient.id
+  AND nutrient.id = common_nutrient.id
 """, (sys.argv[1],))
 vals = {}
 for row in c:

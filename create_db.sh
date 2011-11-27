@@ -18,6 +18,7 @@ sqlite3 $1 < load_food.sql
 
 echo "Loading nutrient..."
 sqlite3 $1 < load_nutrient.sql
+sqlite3 $1 < load_common_nutrient.sql
 
 echo "Loading nutrition..."
 sqlite3 $1 < load_nutrition.sql
