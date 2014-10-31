@@ -1,5 +1,5 @@
 1^Analytical or derived from analytical
-4^Imputed
+4^Calculated or imputed
 5^Value manufacturer based label claim for added nutrients
 6^Aggregated data involving combinations of source codes 1 &12
 7^Assumed zero

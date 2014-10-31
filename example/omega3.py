@@ -7,7 +7,7 @@ import sys
 if len(sys.argv) != 2:
   sys.exit('Must provide term to search for')
 
-conn = sqlite3.connect('../usda.sql3')
+conn = sqlite3.connect('usda.sql3')
 c = conn.cursor()
 c.execute("""
   SELECT

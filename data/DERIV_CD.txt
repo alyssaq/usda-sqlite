@@ -14,6 +14,7 @@ BFPY^Based on another form of the food or similar food; Concentration adjustment
 BFSN^Based on another form of the food or similar food; Concentration adjustment; Solids; Retention factors not used
 BFSY^Based on another form of the food or similar food; Concentration adjustment; Solids; Retention factors used
 BFYN^Based on another form of the food or similar food; Concentration adjustment; Yield; Retention factors not used
+BFYY^Based on another form of the food or similar food; Concentration adjustment; Yield; Retention factors used
 BFZN^Based on another form of the food or similar food; Concentration adjustment; No adjustment; Retention factors not used
 BFZY^Based on another form of the food or similar food; Concentration adjustment; No adjustment; Retention factors used
 BNA^Based on another form of the same food or similar food: constituents normalized to total; vitamin A
@@ -34,8 +35,6 @@ MC^Manufacturer supplied; Calculated by manufacturer or unknown if analytical or
 ML^Manufacturer supplied; Value upon which manufacturer based label claim for fortified/enriched nutrient
 NC^Nutrient that is based on other nutrient/s; calculated rather than analyzed
 NP^Nutrient that is based on other nutrient/s; calculated by difference or summed (with or without activity factors)
-Ex. Proximate component other than CHO by difference.
-Vitamin A calculated from components when one of the component values is not source code 1 or 7
 NR^Nutrient that is based on other nutrient/s; value used directly, ex. Nut.#204 from Nut.#298
 O^Other procedure used from imputing
 PAE^Based on physical composition; Derived from analytical data; Estimated physical composition

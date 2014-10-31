@@ -7,7 +7,7 @@ import sys
 if len(sys.argv) != 2:
   sys.exit('Must provide food id to get nutrition for')
 
-conn = sqlite3.connect('../usda.sql3')
+conn = sqlite3.connect('usda.sql3')
 c = conn.cursor()
 c.execute("""
   SELECT

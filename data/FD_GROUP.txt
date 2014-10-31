@@ -19,7 +19,7 @@
 1900^Sweets
 2000^Cereal Grains and Pasta
 2100^Fast Foods
-2200^Meals, Entrees, and Sidedishes
+2200^Meals, Entrees, and Side Dishes
 2500^Snacks
-3500^Ethnic Foods
+3500^American Indian/Alaska Native Foods
 3600^Restaurant Foods

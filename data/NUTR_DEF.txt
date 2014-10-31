@@ -26,40 +26,44 @@
 307^mg^NA^Sodium, Na^0^5800
 309^mg^ZN^Zinc, Zn^2^5900
 312^mg^CU^Copper, Cu^3^6000
-313^ug^FLD^Fluoride, F^1^6240
+313^mcg^FLD^Fluoride, F^1^6240
 315^mg^MN^Manganese, Mn^3^6100
-317^ug^SE^Selenium, Se^1^6200
+317^mcg^SE^Selenium, Se^1^6200
 318^IU^VITA_IU^Vitamin A, IU^0^7500
-319^ug^RETOL^Retinol^0^7430
-320^ug_RAE^VITA_RAE^Vitamin A, RAE^0^7420
-321^ug^CARTB^Carotene, beta^0^7440
-322^ug^CARTA^Carotene, alpha^0^7450
+319^mcg^RETOL^Retinol^0^7430
+320^mcg^VITA_RAE^Vitamin A, RAE^0^7420
+321^mcg^CARTB^Carotene, beta^0^7440
+322^mcg^CARTA^Carotene, alpha^0^7450
 323^mg^TOCPHA^Vitamin E (alpha-tocopherol)^2^7900
 324^IU^VITD^Vitamin D^0^8750
-325^ug^ERGCAL^Vitamin D2 (ergocalciferol)^1^8710
-326^ug^CHOCAL^Vitamin D3 (cholecalciferol)^1^8720
-328^ug^VITD^Vitamin D (D2 + D3)^1^8700
-334^ug^CRYPX^Cryptoxanthin, beta^0^7460
-337^ug^LYCPN^Lycopene^0^7530
-338^ug^LUT+ZEA^Lutein + zeaxanthin^0^7560
+325^mcg^ERGCAL^Vitamin D2 (ergocalciferol)^1^8710
+326^mcg^CHOCAL^Vitamin D3 (cholecalciferol)^1^8720
+328^mcg^VITD^Vitamin D (D2 + D3)^1^8700
+334^mcg^CRYPX^Cryptoxanthin, beta^0^7460
+337^mcg^LYCPN^Lycopene^0^7530
+338^mcg^LUT+ZEA^Lutein + zeaxanthin^0^7560
 341^mg^TOCPHB^Tocopherol, beta^2^8000
 342^mg^TOCPHG^Tocopherol, gamma^2^8100
 343^mg^TOCPHD^Tocopherol, delta^2^8200
+344^mg^TOCTRA^Tocotrienol, alpha^2^8300
+345^mg^TOCTRB^Tocotrienol, beta^2^8400
+346^mg^TOCTRG^Tocotrienol, gamma^2^8500
+347^mg^TOCTRD^Tocotrienol, delta^2^8600
 401^mg^VITC^Vitamin C, total ascorbic acid^1^6300
 404^mg^THIA^Thiamin^3^6400
 405^mg^RIBF^Riboflavin^3^6500
 406^mg^NIA^Niacin^3^6600
 410^mg^PANTAC^Pantothenic acid^3^6700
 415^mg^VITB6A^Vitamin B-6^3^6800
-417^ug^FOL^Folate, total^0^6900
-418^ug^VITB12^Vitamin B-12^2^7300
+417^mcg^FOL^Folate, total^0^6900
+418^mcg^VITB12^Vitamin B-12^2^7300
 421^mg^CHOLN^Choline, total^1^7220
-428^ug^MK4^Menaquinone-4^1^8950
-429^ug^VITK1D^Dihydrophylloquinone^1^8900
-430^ug^VITK1^Vitamin K (phylloquinone)^1^8800
-431^ug^FOLAC^Folic acid^0^7000
-432^ug^FOLFD^Folate, food^0^7100
-435^ug_DFE^FOLDFE^Folate, DFE^0^7200
+428^mcg^MK4^Menaquinone-4^1^8950
+429^mcg^VITK1D^Dihydrophylloquinone^1^8900
+430^mcg^VITK1^Vitamin K (phylloquinone)^1^8800
+431^mcg^FOLAC^Folic acid^0^7000
+432^mcg^FOLFD^Folate, food^0^7100
+435^mcg^FOLDFE^Folate, DFE^0^7200
 454^mg^BETN^Betaine^1^7270
 501^g^TRP_G^Tryptophan^3^16300
 502^g^THR_G^Threonine^3^16400
@@ -81,7 +85,7 @@
 518^g^SER_G^Serine^3^18000
 521^g^HYP^Hydroxyproline^3^18100
 573^mg^^Vitamin E, added^2^7920
-578^ug^^Vitamin B-12, added^2^7340
+578^mcg^^Vitamin B-12, added^2^7340
 601^mg^CHOLE^Cholesterol^0^15700
 605^g^FATRN^Fatty acids, total trans^3^15400
 606^g^FASAT^Fatty acids, total saturated^3^9700
@@ -118,7 +122,7 @@
 654^g^F24D0^24:0^3^11300
 662^g^F16D1T^16:1 t^3^11900
 663^g^F18D1T^18:1 t^3^12300
-664^g^^22:1 t^3^12700
+664^g^F22D1T^22:1 t^3^12700
 665^g^^18:2 t not further defined^3^13800
 666^g^^18:2 i^3^13700
 669^g^F18D2TT^18:2 t,t^3^13600
@@ -128,7 +132,7 @@
 673^g^F16D1C^16:1 c^3^11800
 674^g^F18D1C^18:1 c^3^12200
 675^g^F18D2CN6^18:2 n-6 c,c^3^13200
-676^g^^22:1 c^3^12600
+676^g^F22D1C^22:1 c^3^12600
 685^g^F18D3CN6^18:3 n-6 c,c,c^3^14100
 687^g^F17D1^17:1^3^12000
 689^g^F20D3^20:3 undifferentiated^3^14400
@@ -143,4 +147,4 @@
 856^g^^18:3i^3^14200
 857^g^F21D5^21:5^3^15100
 858^g^F22D4^22:4^3^15160
-859^g^F18D1TN7^18:1-11t (18:1t n-7)^3^12310
+859^g^F18D1TN7^18:1-11 t (18:1t n-7)^3^12310

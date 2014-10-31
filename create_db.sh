@@ -7,8 +7,9 @@ then
 fi
 
 echo "Normalizing data..."
-sed -i s/~//g data/*.txt
-sed -i s/\\o265/u/ data/NUTR_DEF.txt
+find . -type f -name "*.txt" -exec sed -i.bak "s/~//g" {} \;
+sed -i.bak "s/µ/mc/" data/NUTR_DEF.txt
+rm data/*.bak
 
 echo "Loading food group..."
 sqlite3 $1 < load_food_group.sql
