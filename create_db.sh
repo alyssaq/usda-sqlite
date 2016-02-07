@@ -7,9 +7,10 @@ then
 fi
 
 echo "Normalizing data..."
-find . -type f -name "*.txt" -exec sed -i.bak "s/~//g" {} \;
-sed -i.bak "s/µ/mc/" data/NUTR_DEF.txt
-rm data/*.bak
+# Remove tildas
+perl -pi -e s,~,,g data/*.txt
+# Replace micro symbol to ASCII
+perl -C1 -i -pe 's/\x{00B5}/mc/' data/NUTR_DEF.txt
 
 echo "Loading food group..."
 sqlite3 $1 < load_food_group.sql
