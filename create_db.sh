@@ -25,4 +25,7 @@ sqlite3 $1 < load_common_nutrient.sql
 echo "Loading nutrition..."
 sqlite3 $1 < load_nutrition.sql
 
+echo "Loading weight..."
+sqlite3 $1 < load_weight.sql
+
 echo "Done."
